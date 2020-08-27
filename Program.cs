@@ -16,7 +16,9 @@ namespace Senet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            BoardLogical logBoard = new BoardLogical();
             Application.Run(new Form1());
+            
         }
     }
 }
